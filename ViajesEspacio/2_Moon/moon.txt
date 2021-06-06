@@ -1,0 +1,18 @@
+Nombre: Moon
+#imagenes resolucion: pagina principal: 300x200px; slider: 3* 800x450px. Cada img debe tener descripcion 'alt'
+imgPagPrinc: moon.png; alt: Moon
+slider1: moon1.png; alt: MoonSlider1; 
+slider1: moon2.png; alt: MoonSlider2; 
+slider1: moon3.png; alt: MoonSlider3; 
+#------------------------- Descripcion -------------------------------------------
+titulo: Luna
+descripcion: Apolo 11 fue una misión espacial tripulada de Estados Unidos.El comandante Armstrong fue el primer ser humano que pisó la superficie del satélite terrestre el 21 de julio de 1969 al sur del Mar de la Tranquilidad, seis horas y media después de haber alunizado.
+#------------------------- Datos de viaje ----------------------------------------
+Organizado por: Estados Unidos
+Puerto: NASA
+#-------- formato de fecha 2000-1-1 -----------
+Fecha salida: 2022-02-15 
+Fecha vuelta: 2022-02-27
+Periodo de preparacion: 2 semanas
+Placas libres en total: 10
+Precio por persona en €: 91000

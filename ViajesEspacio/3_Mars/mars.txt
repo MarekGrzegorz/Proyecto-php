@@ -1,0 +1,18 @@
+Nombre: Mars
+#imagenes resolucion: pagina principal: 300x200px; slider: 3* 800x450px. Cada img debe tener descripcion 'alt'
+imgPagPrinc: mars.png; alt: Mars
+slider1: mars1.png; alt: MarsSlider1 
+slider2: mars2.png; alt: MarsSlider2 
+slider3: mars3.png; alt: MarsSlider3  
+#------------------------- Descripcion -------------------------------------------
+titulo: Marte
+descripcion: El primer estudio técnico detallado de un viaje a Marte fue de Wernher von Braun, quien publicó El Proyecto Marte en el año 1952. La idea era enviar una flota de diez naves con 70 tripulantes cada una, que llevarían tres aeronaves con alas que aterrizarían en Marte tal cual un avión comercial
+#------------------------- Datos de viaje ----------------------------------------
+Organizado por: Estados Unidos
+Puerto: SpaceX
+#-------- formato de fecha 2000-1-1 -----------
+Fecha salida: 2022-12-27
+Fecha vuelta: 2025-03-14
+Periodo de preparacion: 1 año
+Placas libres en total: 100
+Precio por persona en €: 220000

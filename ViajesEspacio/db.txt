@@ -1,0 +1,29 @@
+CREATE DATABASE Space CHARACTER SET utf8;
+CREATE TABLE Viajes ( 
+id int NOT NULL AUTO_INCREMENT,
+nombre varchar(80) NOT NULL,
+directorio varchar(80) NOT NULL,
+activo tinyint NOT NULL,
+imgPagPrinc varchar(80) ,
+altPagPrinc varchar(80) ,
+slider1 varchar(80) ,
+altslider1 varchar(80) ,
+slider2 varchar(80) ,
+altslider2 varchar(80) ,
+slider3 varchar(80) ,
+altslider3 varchar(80) ,
+titulo varchar(80) ,
+description varchar(500) ,
+proveedor varchar(80) ,
+puerto varchar(80),
+fechainicio date,
+fechafin date,
+preparacion varchar(80) ,
+placas smallint,
+precio float (7,2),
+PRIMARY KEY (id)
+);
+
+INSERT INTO Viajes (  nombre , directorio , activo , imgPagPrinc , altPagPrinc , slider1 , altslider1  , slider2
+ , altslider2  , slider3  , altslider3  , titulo , description  , proveedor  , puerto , fechainicio , fechafin , preparacion  , placas , precio  ) values ('ISS', 'VijesEspacio/ISS', 1, 'iss.png', 'ISS','iss1.png', 'ISSslider1', 'iss2.png', 'ISSslider2','iss3.png','ISSslider3','International Space Station', 'El 30 de abril de 2001, el millonario estadounidense Dennis Tito llegó a la Estación Espacial Internacional (EEI) a través de un cohete ruso Soyuz, convirtiéndose en el primer turista espacial del mundo.', 'Federación de Rusia','Baikonur', '2021-10-21', '2021-10-28','2 semanas',20, 54000);
+

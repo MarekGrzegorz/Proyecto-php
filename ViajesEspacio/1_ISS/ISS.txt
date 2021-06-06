@@ -1,0 +1,19 @@
+Nombre: ISS
+#imagenes resolucion: pagina principal: 300x200px; slider: 3* 800x450px. Cada img debe tener descripcion 'alt'
+imgPagPrinc: iss.png; alt: ISS
+slider1: iss1.png; alt: ISSslider1; 
+slider2: iss1.png; alt: ISSslider2; 
+slider3: iss1.png; alt: ISSslider3; 
+#------------------------- Descripcion -------------------------------------------
+titulo: International Space Station
+descripcion: El 30 de abril de 2001, el millonario estadounidense Dennis Tito llegó a la Estación Espacial Internacional (EEI) a través de un cohete ruso Soyuz, convirtiéndose en el primer turista espacial del mundo.
+#------------------------- Datos de viaje ----------------------------------------
+Organizado por: Federación de Rusia
+Puerto: Baikonur
+#-------- formato de fecha 2000-1-1 -----------
+Fecha salida: 2021-10-21
+Fecha vuelta: 2021-10-28
+Periodo de preparacion: 2 semanas
+Placas libres en total: 20
+Precio por persona en €: 54000
+
