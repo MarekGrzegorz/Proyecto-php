@@ -10,7 +10,7 @@ class DB{
     public function getConn     ()  { return $this->conn;}
     public function DBconn      ()  {
         $this->conn = new mysqli($this->dbhost, $this->dbuser, $this->dbpass,$this->db);
-        if (mysqli_connect_errno()){ throw new Exception("Connect failed: ". mysqli_connect_error());}
+        if (mysqli_connect_errno()){ return false; }
         else { return true;} 
     }
     public function DBexit      ()  { $this->conn -> close();}

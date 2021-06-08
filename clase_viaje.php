@@ -72,9 +72,27 @@ public function setpreparacion($preparacion_){ $this->preparacion = $preparacion
 public function setplacas($placas_){ $this->placas = $placas_;} 
 public function setprecio($precio_) { $this->precio = $precio_;}
 
-public function getPuerto(){return $this->puerto;}
-public function getPrecio(){return $this->precio;}
-    
+public function getid(){ return $this->id ;} 
+public function getnombre(){ return $this->nombre;} 
+public function getdirectorio(){ return $this->directorio;} 
+public function getactivo(){ return $this->activo;} 
+public function getimgPagPrinc(){ return $this->imgPagPrinc;} 
+public function getaltPagPrinc(){return  $this->altPagPrinc;} 
+public function getslider1(){ return $this->slider1;} 
+public function getaltslider1(){ return $this->altslider1;} 
+public function getslider2(){ return $this->slider2;} 
+public function getaltslider2(){ return $this->altslider2;} 
+public function getslider3(){ return $this->slider3;} 
+public function getaltslider3(){ return $this->altslider3;} 
+public function gettitulo(){ return $this->titulo;} 
+public function getdescription(){ return $this->description;} 
+public function getproveedor(){ return $this->proveedor;} 
+public function getpuerto(){ return $this->puerto;} 
+public function getfechainicio(){ return $this->fechainicio;} 
+public function getfechafin(){ return $this->fechafin;} 
+public function getpreparacion(){ return $this->preparacion;} 
+public function getplacas(){ return $this->placas;} 
+public function getprecio() { return $this->precio;}   
 
 public function setAttrib(int $id, string $nombre, string $directorio, int $activo, string $imgPagPrinc, string $altPagPrinc, string $slider1,
         string $altslider1, string $slider2, string $altslider2, string $slider3, string $altslider3, string $titulo, string $description,
